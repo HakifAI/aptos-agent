@@ -1,0 +1,16 @@
+{
+  "node_version": "20",
+  "dockerfile_lines": [],
+  "dependencies": ["."],
+  "graphs": {
+    "agent": "./src/aptos_agent/graph.ts:graph"
+  },
+  "env": ".env",
+  "auth": {
+    "path": "./src/security/auth.ts:auth",
+    "disable_studio_auth": true
+  },
+  "ui": {
+    "agent": "./src/aptos_agent/ui.tsx"
+  }
+}
